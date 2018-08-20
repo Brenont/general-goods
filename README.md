@@ -1,5 +1,5 @@
 # GeneralGoods
-<p align="center">
+<p align="left">
   <a href="https://www.generalgoods.com.br/" target="_blank" >
     <img alt="GeneralGoods" src="https://www.generalgoods.com.br/img/logo.png" width="250px" />
   </a>
