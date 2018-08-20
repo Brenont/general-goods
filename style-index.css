@@ -1,0 +1,130 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+@font-face {
+    font-family: menu;
+    src: url(./font/COMFORTAA.LIGHT.TTF);
+}
+
+@font-face {
+    font-family: general;
+    src: url(./font/ORATORSTD.OTF);
+}
+
+@font-face {
+    font-family: qmsomos;
+    src: url(./font/TT0288M_.TTF);
+}
+
+.headings {
+    font-family: menu;
+}
+
+
+.main {
+    padding-top: 1px;
+    padding-bottom: 10px;
+}
+
+.frase2 {
+    /* color: #3e8c62; */
+    color: #083e21;
+    font-size: 40px;
+}
+
+.frase {
+    color: #000;
+    font-size: 20px;
+}
+
+.carousel-caption {
+    font-family: menu;
+}
+
+.credito {
+    color: #000;
+    font-size: 15px !important;
+}
+
+.btn-secondary {
+    color: #000 !important;
+    background-color: transparent !important;
+    border-color: #5368c5 !important;
+}
+
+.btn-secondary:hover {
+    background-color: #2e48bb !important;
+    color: #fff !important;
+}
+
+.rounded-circle {
+    border: 1px solid #000;
+    margin-bottom: 20px;
+}
+
+.slidetwo {
+    bottom: 90px !important;
+}
+
+.slideone {
+    bottom: 90px !important;
+}
+
+.btn2 {
+    margin-top: 25px;
+}
+
+.p22 {
+    padding-top: 20px
+}
+
+.btn3 {
+    margin-top: 45px;
+}
+
+.p33 {
+    padding-top: 20px
+}
+
+
+/* Alan=================== */
+
+.carousel-item h1 {
+    text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.53);
+}
+
+div#myCarousel {
+    display: none !important;
+}
+
+div#myCarousel2 {
+    display: block !important;
+}
+
+@media only screen and (max-width: 575.98px) {
+    .carousel-caption {
+        background-color: rgba(255, 255, 255, 0.288);
+        padding: 10px;
+        border-radius: 5px;
+    }
+    .frase{
+        font-size: 18px;
+    }
+    .frase2 {
+        font-size: 23px;
+    }
+    .slidetwo {
+        bottom: 120px !important;
+    }
+    .slidetwo h1 {
+        font-size: 31px;
+    }
+    div#myCarousel {
+        display: block !important;
+    }
+    div#myCarousel2 {
+        display: none !important;
+    }
+}

@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.retangulo{
+    font-family: titulos;
+    width: 100%;
+    height: 130px;
+    font-size: 53px;
+    margin-bottom: 0;
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #15114d;
+    color: #fff;
+    box-shadow: #000 0px 0px 14px -2px;
+    /*border-bottom: 1px solid #000;*/
+}
+
+h2 {
+    font-family: menu;
+    font-size: 30px;
+}

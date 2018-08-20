@@ -1,0 +1,214 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+@font-face {
+    font-family: menu;
+    src: url(./font/COMFORTAA.LIGHT.TTF);
+}
+
+@font-face {
+    font-family: titulos;
+    src: url(./font/ORATORSTD.OTF);
+}
+
+body {
+    width: 100%;
+    background-image: url("img/backcontato3.jpg");
+    background-repeat: no-repeat;
+    background-color: #16114d;
+}
+
+h2 {
+    font-family: titulos;
+}
+
+#email {
+    font-family: titulos;
+}
+
+#telefone {
+    font-family: titulos;
+}
+
+.contato {
+    display:-webkit-flex;
+    display:-webkit-box;
+    display:-moz-flex;
+    display:-moz-box;
+    display:-ms-flexbox;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 75px 0px 50px 0px;
+}
+
+.formulario {
+    color: rgba(255, 255, 255, 0.5);
+    width: 100%;
+    padding: 0px 70px;
+}
+
+.infrm {
+    color: white;
+    text-align: center;
+    padding: 0px 70px;
+}
+
+.infrm p {
+    font-size: 23px;
+}
+
+ ::-webkit-input-placeholder {
+    color: white;
+}
+
+ :-moz-placeholder {
+    color: white;
+}
+
+ ::-moz-placeholder {
+    color: white;
+}
+
+ :-ms-input-placeholder {
+    color: white;
+}
+
+.titulo-formulario {
+    color: white;
+    text-align: center;
+}
+
+.inputs-formulario {
+    display:-webkit-flex;
+    display:-webkit-box;
+    display:-moz-flex;
+    display:-moz-box;
+    display:-ms-flexbox;
+    display: flex;
+    padding: 10px 0px 10px 5px;
+    margin: 21px 0px;
+    background-color: transparent;
+    width: 100%;
+}
+
+.textarea-formulario {
+    display:-webkit-flex;
+    display:-webkit-box;
+    display:-moz-flex;
+    display:-moz-box;
+    display:-ms-flexbox;
+    display: flex;
+    width: 100%;
+    background-color: transparent;
+}
+
+#input-nome {
+    font-family: titulos;
+    color: #fff;
+    border: 2px solid #fff;
+}
+
+#input-telefone {
+    font-family: titulos;
+    color: #fff;
+    border: 2px solid #fff;
+}
+
+#input-email {
+    font-family: titulos;
+    color: #fff;
+    border: 2px solid #fff;
+}
+
+#input-mensagem {
+    font-family: titulos;
+    padding-bottom: 70px;
+    color: #fff;
+    border: 2px solid #fff;
+}
+
+#botao-form {
+    font-family: titulos;
+    background-color: transparent;
+    color: white;
+    border-radius: 5px;
+    border-color: #da251c;
+    margin: auto;
+    padding: 10px 16px;
+    margin-top: 15px;
+    display: block;
+}
+
+#sct-map {
+    padding: 40px 50px;
+}
+
+#map {
+    width: 100%;
+    height: 300px;
+    box-shadow: rgba(0, 0, 0, 0.5) 3px 3px 3px 3px;
+}
+
+.telefone{
+    color: white;
+    text-decoration: none;
+}
+.telefone:hover{
+    color: white;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 960px) {
+    .infrm p {
+        font-size: 16px;
+        display:-webkit-flex;
+        display:-webkit-box;
+        display:-moz-flex;
+        display:-moz-box;
+        display:-ms-flexbox;
+        display: flex;
+        justify-content: center;
+    }
+    .contato {
+        justify-content: center;
+        display: block;
+        padding: 75px 150px 70px 150px;
+    }
+    .infrm {
+        padding: 50px 0px 0px 0px;
+    }
+    .formulario {
+        padding: 0px;
+        justify-content: center;
+        display: block;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .infrm p {
+        font-size: 16px;
+        display:-webkit-flex;
+        display:-webkit-box;
+        display:-moz-flex;
+        display:-moz-box;
+        display:-ms-flexbox;
+        display: flex;
+        justify-content: center;
+    }
+    .contato {
+        justify-content: center;
+        display: block;
+        padding: 75px 20px 50px 20px;
+    }
+    .infrm {
+        padding: 50px 0px 0px 0px;
+    }
+    .formulario {
+        padding: 0px;
+        justify-content: center;
+        display: block;
+    }
+}
