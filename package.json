@@ -4,7 +4,8 @@
   "description": "<p align=\"left\">\r   <a href=\"https://www.generalgoods.com.br/\" target=\"_blank\" >\r     <img alt=\"GeneralGoods\" src=\"https://www.generalgoods.com.br/img/logo.png\" width=\"250px\" />\r   </a>\r </p>",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "sass": "sass --watch src/style.scss src/style.css",
+    "serve": "browser-sync start --server \"src/\"  --files \"src/*\" \"src/css/*\""
   },
   "repository": {
     "type": "git",
