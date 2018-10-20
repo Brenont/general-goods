@@ -1,0 +1,23 @@
+{
+  "name": "projetogeneralgoods",
+  "version": "1.0.0",
+  "description": "<p align=\"left\">\r   <a href=\"https://www.generalgoods.com.br/\" target=\"_blank\" >\r     <img alt=\"GeneralGoods\" src=\"https://www.generalgoods.com.br/img/logo.png\" width=\"250px\" />\r   </a>\r </p>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Brenont/GeneralGoods.git"
+  },
+  "author": "Breno",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Brenont/GeneralGoods/issues"
+  },
+  "homepage": "https://github.com/Brenont/GeneralGoods#readme",
+  "dependencies": {
+    "browser-sync": "^2.26.3",
+    "sass": "^1.14.3"
+  }
+}

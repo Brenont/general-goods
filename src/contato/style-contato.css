@@ -5,17 +5,17 @@
 
 @font-face {
     font-family: menu;
-    src: url(./font/COMFORTAA.LIGHT.TTF);
+    src: url(../font/COMFORTAA.LIGHT.TTF);
 }
 
 @font-face {
     font-family: titulos;
-    src: url(./font/ORATORSTD.OTF);
+    src: url(../font/ORATORSTD.OTF);
 }
 
 body {
     width: 100%;
-    background-image: url("img/backcontato3.jpg");
+    background-image: url("../img/backcontato3.jpg");
     background-repeat: no-repeat;
     background-color: #16114d;
 }

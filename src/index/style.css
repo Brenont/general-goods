@@ -5,17 +5,17 @@
 
 @font-face {
     font-family: menu;
-    src: url(./font/COMFORTAA.LIGHT.TTF);
+    src: url(../font/COMFORTAA.LIGHT.TTF);
 }
 
 @font-face {
     font-family: titulos;
-    src: url(./font/ORATORSTD.OTF);
+    src: url(../font/ORATORSTD.OTF);
 }
 
 @font-face {
     font-family: titlep;
-    src: url(./font/TT0288M_.TTF);
+    src: url(../font/TT0288M_.TTF);
 }
 
 nav {
