@@ -1,7 +1,25 @@
 //AQUI FICARÃO AS VARIAVEIS E ETC...
+$font-white: #fff;
 $primary-color: #023769;
 $secondary-color: #da251c;
 
+//AQUI FICARÃO AS FONTES...
+@font-face {
+    font-family: menu;
+    src: url(../font/COMFORTAA.LIGHT.TTF);
+}
+
+@font-face {
+    font-family: titulos;
+    src: url(../font/ORATORSTD.OTF);
+}
+
+@font-face {
+    font-family: titlep;
+    src: url(../font/TT0288M_.TTF);
+}
+
+//AQUI FICARÃO OS IMPORTS...
 @import 'index/index.scss';
 @import 'qmsomos/qmsomos.scss';
 @import 'produtos/produtos.scss';

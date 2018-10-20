@@ -12,145 +12,149 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
         crossorigin="anonymous">
     <link rel="stylesheet" href="../index/style.css">
-    <link rel="stylesheet" href="style-contato.css">
+    <link rel="stylesheet" href="../style.css">
     <title>General Goods</title>
 </head>
 
-<body>
+<body id="contato-body">
 
     <!-- NAV -->
-
+    
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <a class="logo-fonte" href="../index.html">
             <img class="logo" src="../img/logo.png" alt="" width="125px" height="78px">
             <img class="nome-logo" src="../img/logo3.png" width="220px" height="78px">
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-            aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+        aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul align="center" class="navbar-nav ml-auto">
+            <a class="navlink2" href="../index.html">
+                <li class="nav-item">HOME
+                </li>
+            </a>
+            <a class="navlink2" href="../produtos/produtos.html">
+                <li class="nav-item">PRODUTOS
+                </li>
+            </a>
+            <a class="navlink2" href="../qmsomos/qmsomos.html">
+                <li class="nav-item">QUEM SOMOS
+                </li>
+            </a>
+            <a class="navlink" href="contato.html">
+                <span class="sr-only">(current)</span>
+                <li class="nav-item active">CONTATO
+                </li>
+            </a>
+        </ul>
+    </div>
+</nav>
 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul align="center" class="navbar-nav ml-auto">
-                <a class="navlink2" href="../index.html">
-                    <li class="nav-item">HOME
+<section id="conteudo-contato">
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+crossorigin="anonymous"></script>
+
+<!-- PAGINA CONTATO -->
+
+<section class="contato">
+    <div class="formulario">
+        <h2 class="titulo-formulario">FALE CONOSCO</h2>
+        <form action="../sendemail/enviaremail.php" method="POST">
+            <input type="text" class="inputs-formulario input" id="input-nome" name="nome" placeholder="NOME">
+            <input type="text" class="inputs-formulario input" id="input-telefone" name="telefone" placeholder="TELEFONE">
+            <input type="email" class="inputs-formulario input" id="input-email" name="email" placeholder="EMAIL">
+            <textarea type="text" class="inputs-formulario input" id="input-mensagem" name="mensagem" placeholder="MENSAGEM"></textarea>
+            <input type="submit" class="button-formulario" id="botao-form" value="ENVIAR">
+        </form>
+    </div>
+    <div class="infrm">
+        <h2 class="ttl-email">NOSSO EMAIL</h2>
+        <p id="email">generalgoods@generalgoods.com</p>
+        <h2 class="ttl-telefone">TELEFONE</h2>
+        <p id="telefone">(21) 2281-1319</p>
+    </div>
+</section>
+
+<section id="sct-map">
+    <div id="map"></div>
+</section>
+
+</section>
+<footer class="footer1">
+    <section class="sct-footer">
+        <div class="link-footer">
+            <ul class="ul-footer">
+                <li>
+                    <a class="footerlink-a" href="../index.html">
+                        <img src="../img/angle-right.svg" alt="" height="20px" width="20px"> HOME</a>
                     </li>
-                </a>
-                <a class="navlink2" href="../produtos/produtos.html">
-                    <li class="nav-item">PRODUTOS
-                    </li>
-                </a>
-                <a class="navlink2" href="../qmsomos/qmsomos.html">
-                    <li class="nav-item">QUEM SOMOS
-                    </li>
-                </a>
-                <a class="navlink" href="contato.html">
-                    <span class="sr-only">(current)</span>
-                    <li class="nav-item active">CONTATO
-                    </li>
-                </a>
-            </ul>
-        </div>
-    </nav>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
-        crossorigin="anonymous"></script>
-
-    <!-- PAGINA CONTATO -->
-
-    <section class="contato">
-        <div class="formulario">
-            <h2 class="titulo-formulario">FALE CONOSCO</h2>
-            <form action="../sendemail/enviaremail.php" method="POST">
-                <input type="text" class="inputs-formulario" id="input-nome" name="nome" placeholder="NOME">
-                <input type="text" class="inputs-formulario" id="input-telefone" name="telefone" placeholder="TELEFONE">
-                <input type="email" class="inputs-formulario" id="input-email" name="email" placeholder="EMAIL">
-                <textarea type="text" class="inputs-formulario" id="input-mensagem" name="mensagem" placeholder="MENSAGEM"></textarea>
-                <input type="submit" class="button-formulario" id="botao-form" value="ENVIAR">
-            </form>
-        </div>
-        <div class="infrm">
-            <h2 class="ttl-email">NOSSO EMAIL</h2>
-            <p id="email">generalgoods@generalgoods.com</p>
-            <h2 class="ttl-telefone">TELEFONE</h2>
-            <p id="telefone">(21) 2281-1319</p>
-        </div>
-    </section>
-
-    <section id="sct-map">
-        <div id="map"></div>
-    </section>
-
-    <footer class="footer1">
-        <section class="sct-footer">
-            <div class="link-footer">
-                <ul class="ul-footer">
                     <li>
-                        <a class="footerlink-a" href="../index.html">
-                            <img src="../img/angle-right.svg" alt="" height="20px" width="20px"> HOME</a>
-                    </li>
-                    <li>
-
+                        
                         <a class="footerlink-a" href="../produtos/produtos.html">
                             <img src="../img/angle-right.svg" alt="" height="20px" width="20px"> PRODUTOS</a>
-                    </li>
-                    <li>
-                        <a class="footerlink-a" href="../qmsomos/qmsomos.html">
-                            <img src="../img/angle-right.svg" alt="" height="20px" width="20px"> QUEM SOMOS</a>
-                    </li>
-                    <li>
-                        <a class="footerlink-a" href="contato.html">
-                            <img src="../img/angle-right.svg" alt="" height="20px" width="20px"> CONTATO</a>
-                    </li>
-                </ul>
-            </div>
-            <div class="logo-footer">
-                <a href="index.html">
-                    <img src="../img/logo.png" alt="" height="110px" width="175px">
-                </a>
-            </div>
-            <div class="info-footer1">
-                <div class="info-footer2">
-
-                    <p class="pfooter">
-                        <img class="icon-info" src="../img/map-marker-alt.svg" alt="" height="22px" width="20px">R. Dalcídio Jurandir, 255 - Sala 309 - Barra da Tijuca, RJ</p>
-                    <p class="pfooter">
-                        <img class="icon-info" src="../img/envelope-square.svg" alt="" height="22px" width="22px">generalgoods@general&shy;goods.com</p>
-                    <p class="pfooter number1">
-                        <img class="icon-info" src="../img/phone-square.svg" alt="" height="22px" width="22px">(21) 2281-1319</p>
-                </div>
-            </div>
-        </section>
-    </footer>
-    <footer class="developby">
-        <div class="div-developby">
-            <div class="div-developby2">
-                <!-- <p class="tt-developby">Develop By:</p> -->
-                <a target="_blank" href="http://www.estartandodevs.com.br/">
-                    <img class="logo-devs" src="../img/fonte branca.png" alt="" height="45px" width="100px">
-                </a>
-            </div>
-        </div>
-    </footer>
-
-
-    <script>
-        function initMap() {
-            var uluru = {
-                lat: -23.0028841,
-                lng: -43.3384684
-            };
-            var map = new google.maps.Map(document.getElementById('map'), {
-                zoom: 13,
-                center: uluru
-            });
-            var marker = new google.maps.Marker({
-                position: uluru,
-                map: map
-            });
-        }
-    </script>
+                        </li>
+                        <li>
+                            <a class="footerlink-a" href="../qmsomos/qmsomos.html">
+                                <img src="../img/angle-right.svg" alt="" height="20px" width="20px"> QUEM SOMOS</a>
+                            </li>
+                            <li>
+                                <a class="footerlink-a" href="contato.html">
+                                    <img src="../img/angle-right.svg" alt="" height="20px" width="20px"> CONTATO</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="logo-footer">
+                            <a href="index.html">
+                                <img src="../img/logo.png" alt="" height="110px" width="175px">
+                            </a>
+                        </div>
+                        <div class="info-footer1">
+                            <div class="info-footer2">
+                                
+                                <p class="pfooter">
+                                    <img class="icon-info" src="../img/map-marker-alt.svg" alt="" height="22px" width="20px">R. Dalcídio Jurandir, 255 - Sala 309 - Barra da Tijuca, RJ</p>
+                                    <p class="pfooter">
+                                        <img class="icon-info" src="../img/envelope-square.svg" alt="" height="22px" width="22px">generalgoods@general&shy;goods.com</p>
+                                        <p class="pfooter number1">
+                                            <img class="icon-info" src="../img/phone-square.svg" alt="" height="22px" width="22px">(21) 2281-1319</p>
+                                        </div>
+                                    </div>
+                                </section>
+                            </footer>
+                            <footer class="developby">
+                                <div class="div-developby">
+                                    <div class="div-developby2">
+                                        <!-- <p class="tt-developby">Develop By:</p> -->
+                                        <a target="_blank" href="http://www.estartandodevs.com.br/">
+                                            <img class="logo-devs" src="../img/fonte branca.png" alt="" height="45px" width="100px">
+                                        </a>
+                                    </div>
+                                </div>
+                            </footer>
+                            
+                            
+                            <script>
+                                function initMap() {
+                                    var uluru = {
+                                        lat: -23.0028841,
+                                        lng: -43.3384684
+                                    };
+                                    var map = new google.maps.Map(document.getElementById('map'), {
+                                        zoom: 13,
+                                        center: uluru
+                                    });
+                                    var marker = new google.maps.Marker({
+                                        position: uluru,
+                                        map: map
+                                    });
+                                }
+                                </script>
     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBGgHmDeD5_Q7Mh5sUPgaQKOtPE6vElSWA&callback=initMap">
     </script>
 
