@@ -1,7 +1,8 @@
 //AQUI FICARÃO AS VARIAVEIS E ETC...
+$primary-color: #023769;
+$secondary-color: #da251c;
 
-
-@import 'contato/index.scss';
-@import 'contato/qmsomos.scss';
-@import 'contato/produtos.scss';
+@import 'index/index.scss';
+@import 'qmsomos/qmsomos.scss';
+@import 'produtos/produtos.scss';
 @import 'contato/contato.scss';
